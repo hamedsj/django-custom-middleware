@@ -1,5 +1,6 @@
+## This repository created in attach to [this post]()
 # What are middlewares?
-In short, middlewares are classes that contain some functions called before and after all view functions. For more detail on middleware, you can click here.
+In short, middlewares are classes that contain some functions called before and after all view functions. For more detail on middleware, you can click [here](https://medium.com/zeitcode/django-middlewares-and-the-request-response-cycle-fcbf8efb903f).
 # What requirements should middlewares have?
 the only requirement for a class to be a middleware is that middleware must have at least one of the following methods:
 * _process_request_
